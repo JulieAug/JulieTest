@@ -1,0 +1,366 @@
+2022-07-05 15:53:00:618 [Appium] Welcome to Appium v1.21.0
+2022-07-05 15:53:00:619 [Appium] Non-default server args:
+2022-07-05 15:53:00:620 [Appium]   port: 12345
+2022-07-05 15:53:00:620 [Appium]   logFile: log/Appium0705-1552.log
+2022-07-05 15:53:00:620 [Appium]   logTimestamp: true
+2022-07-05 15:53:00:621 [Appium]   localTimezone: true
+2022-07-05 15:53:00:646 [Appium] Appium REST http interface listener started on 0.0.0.0:12345
+2022-07-05 15:53:00:862 [HTTP] Request idempotency key: 50e4649f-5ecb-444d-a9aa-deeabfa15df6
+2022-07-05 15:53:00:875 [HTTP] --> POST /wd/hub/session
+2022-07-05 15:53:00:875 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":".activity.SplashActivity","appium:appPackage":"com.tencent.mobileqq","appium:noReset":true,"appium:resetKeyboard":true,"appium:skipServerInstallation":true,"appium:udid":"127.0.0.1:62001","appium:unicodeKeyboard":true,"platformName":"android"}}}
+2022-07-05 15:53:00:876 [W3C] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":".activity.SplashActivity","appium:appPackage":"com.tencent.mobileqq","appium:noReset":true,"appium:resetKeyboard":true,"appium:skipServerInstallation":true,"appium:udid":"127.0.0.1:62001","appium:unicodeKeyboard":true,"platformName":"android"}}]
+2022-07-05 15:53:00:877 [BaseDriver] Event 'newSessionRequested' logged at 1657007580877 (15:53:00 GMT+0800 (中国标准时间))
+2022-07-05 15:53:00:882 [Appium] 
+2022-07-05 15:53:00:883 [Appium] ======================================================================
+2022-07-05 15:53:00:884 [Appium]   DEPRECATION WARNING:
+2022-07-05 15:53:00:885 [Appium] 
+2022-07-05 15:53:00:885 [Appium]   The 'automationName' capability was not provided in the desired 
+2022-07-05 15:53:00:886 [Appium]   capabilities for this Android session
+2022-07-05 15:53:00:886 [Appium] 
+2022-07-05 15:53:00:886 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2022-07-05 15:53:00:887 [Appium]   UiAutomator2 Driver
+2022-07-05 15:53:00:887 [Appium] 
+2022-07-05 15:53:00:887 [Appium]   The next major version of Appium (2.x) will **require** the 
+2022-07-05 15:53:00:887 [Appium]   'automationName' capability to be set for all sessions on all 
+2022-07-05 15:53:00:888 [Appium]   platforms
+2022-07-05 15:53:00:888 [Appium] 
+2022-07-05 15:53:00:888 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2022-07-05 15:53:00:889 [Appium]   'automationName=UiAutomator1'
+2022-07-05 15:53:00:889 [Appium] 
+2022-07-05 15:53:00:892 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2022-07-05 15:53:00:893 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2022-07-05 15:53:00:893 [Appium] 
+2022-07-05 15:53:00:894 [Appium]   For more information about drivers, please visit 
+2022-07-05 15:53:00:894 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2022-07-05 15:53:00:894 [Appium]   'Drivers' menu
+2022-07-05 15:53:00:895 [Appium] 
+2022-07-05 15:53:00:895 [Appium] ======================================================================
+2022-07-05 15:53:00:895 [Appium] 
+2022-07-05 15:53:01:115 [Appium] Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+2022-07-05 15:53:01:119 [BaseDriver] Creating session with W3C capabilities: {
+2022-07-05 15:53:01:120 [BaseDriver]   "alwaysMatch": {
+2022-07-05 15:53:01:120 [BaseDriver]     "platformName": "android",
+2022-07-05 15:53:01:120 [BaseDriver]     "appium:appActivity": ".activity.SplashActivity",
+2022-07-05 15:53:01:122 [BaseDriver]     "appium:appPackage": "com.tencent.mobileqq",
+2022-07-05 15:53:01:123 [BaseDriver]     "appium:noReset": true,
+2022-07-05 15:53:01:123 [BaseDriver]     "appium:resetKeyboard": true,
+2022-07-05 15:53:01:123 [BaseDriver]     "appium:skipServerInstallation": true,
+2022-07-05 15:53:01:124 [BaseDriver]     "appium:udid": "127.0.0.1:62001",
+2022-07-05 15:53:01:124 [BaseDriver]     "appium:unicodeKeyboard": true
+2022-07-05 15:53:01:124 [BaseDriver]   },
+2022-07-05 15:53:01:125 [BaseDriver]   "firstMatch": [
+2022-07-05 15:53:01:125 [BaseDriver]     {}
+2022-07-05 15:53:01:125 [BaseDriver]   ]
+2022-07-05 15:53:01:127 [BaseDriver] }
+2022-07-05 15:53:01:134 [BaseDriver] Session created with session id: 1a964e14-f526-4a84-9425-9edcdcf3a440
+2022-07-05 15:53:01:135 [UiAutomator2] Starting 'com.tencent.mobileqq' directly on the device
+2022-07-05 15:53:01:145 [ADB] Found 1 'build-tools' folders under 'E:\Android\android-sdk-windows' (newest first):
+2022-07-05 15:53:01:146 [ADB]     E:/Android/android-sdk-windows/build-tools/29.0.2
+2022-07-05 15:53:01:147 [ADB] Using 'adb.exe' from 'E:\Android\android-sdk-windows\platform-tools\adb.exe'
+2022-07-05 15:53:01:148 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 start-server'
+2022-07-05 15:53:01:177 [AndroidDriver] Retrieving device list
+2022-07-05 15:53:01:178 [ADB] Trying to find a connected android device
+2022-07-05 15:53:01:181 [ADB] Getting connected devices
+2022-07-05 15:53:01:208 [ADB] Connected devices: [{"udid":"127.0.0.1:62001","state":"device"}]
+2022-07-05 15:53:01:209 [AndroidDriver] Using device: 127.0.0.1:62001
+2022-07-05 15:53:01:211 [ADB] Using 'adb.exe' from 'E:\Android\android-sdk-windows\platform-tools\adb.exe'
+2022-07-05 15:53:01:212 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 start-server'
+2022-07-05 15:53:01:236 [ADB] Setting device id to 127.0.0.1:62001
+2022-07-05 15:53:01:240 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell getprop ro.build.version.sdk'
+2022-07-05 15:53:01:303 [ADB] Current device property 'ro.build.version.sdk': 25
+2022-07-05 15:53:01:305 [ADB] Device API level: 25
+2022-07-05 15:53:01:307 [AndroidDriver] No app sent in, not parsing package/activity
+2022-07-05 15:53:01:308 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 wait-for-device'
+2022-07-05 15:53:01:332 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell echo ping'
+2022-07-05 15:53:01:393 [AndroidDriver] Pushing settings apk to device...
+2022-07-05 15:53:01:394 [ADB] Getting install status for io.appium.settings
+2022-07-05 15:53:01:397 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package io.appium.settings'
+2022-07-05 15:53:01:470 [ADB] 'io.appium.settings' is installed
+2022-07-05 15:53:01:471 [ADB] Getting package info for 'io.appium.settings'
+2022-07-05 15:53:01:474 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package io.appium.settings'
+2022-07-05 15:53:01:561 [ADB] The version code of the installed 'io.appium.settings' is greater than the application version code (32 > 29)
+2022-07-05 15:53:01:563 [ADB] There is no need to downgrade 'io.appium.settings'
+2022-07-05 15:53:01:566 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-05 15:53:01:567 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pgrep --help; echo $?''
+2022-07-05 15:53:01:636 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell 'pgrep ^appium\\.settings$ || pgrep ^io\\.appium\\.setti$''
+2022-07-05 15:53:01:719 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-07-05 15:53:01:720 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell appops set io.appium.settings android:mock_location allow'
+2022-07-05 15:53:01:806 [Logcat] Starting logs capture with command: E:\\Android\\android-sdk-windows\\platform-tools\\adb.exe -P 5037 -s 127.0.0.1\:62001 logcat -v threadtime
+2022-07-05 15:53:01:842 [AndroidDriver] Enabling Unicode keyboard support
+2022-07-05 15:53:01:844 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell settings get secure default_input_method'
+2022-07-05 15:53:02:595 [AndroidDriver] Unsetting previous IME io.appium.settings/.UnicodeIME
+2022-07-05 15:53:02:597 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2022-07-05 15:53:02:601 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell ime enable io.appium.settings/.UnicodeIME'
+2022-07-05 15:53:03:219 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell ime set io.appium.settings/.UnicodeIME'
+2022-07-05 15:53:03:857 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2022-07-05 15:53:03:858 [ADB] Forwarding system: 8200 to device: 6790
+2022-07-05 15:53:03:860 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 forward tcp:8200 tcp:6790'
+2022-07-05 15:53:03:888 [UiAutomator2] 'skipServerInstallation' is set. Skipping UIAutomator2 server installation.
+2022-07-05 15:53:03:889 [UiAutomator2] No app capability. Assuming it is already on the device
+2022-07-05 15:53:03:892 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-07-05 15:53:03:900 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2022-07-05 15:53:03:901 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am force-stop io.appium.uiautomator2.server.test'
+2022-07-05 15:53:04:530 [UiAutomator2] 'skipServerInstallation' is set. Attempting to use UIAutomator2 server from the device
+2022-07-05 15:53:04:532 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-07-05 15:53:04:535 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-07-05 15:53:04:547 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-05 15:53:04:549 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-07-05 15:53:04:555 [WD Proxy] socket hang up
+2022-07-05 15:53:05:304 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-07-05 15:53:05:558 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-05 15:53:05:560 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-07-05 15:53:05:562 [WD Proxy] socket hang up
+2022-07-05 15:53:06:564 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-05 15:53:06:566 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-07-05 15:53:06:579 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-07-05 15:53:06:580 [UiAutomator2] The initialization of the instrumentation process took 2050ms
+2022-07-05 15:53:06:581 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-07-05 15:53:06:582 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.tencent.mobileqq","noReset":true,"resetKeyboard":true,"skipServerInstallation":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true},"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.tencent.mobileqq","noReset":true,"resetKeyboard":true,"skipServerInstallation":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true,"deviceName":"127.0.0.1:62001","deviceUDID":"127.0.0.1:62001"}],"alwaysMatch":{}}}
+2022-07-05 15:53:06:593 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.tencent.mobileqq","noReset":true,"resetKeyboard":true,"skipServerInstallation":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true},"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.tencent.mobileqq","noReset":true,"resetKeyboard":true,"skipServerInstallation":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true,"deviceName":"127.0.0.1:62001","deviceUDID":"127.0.0.1:62001"}],"alwaysMatch":{}},"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e"}}
+2022-07-05 15:53:06:595 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-07-05 15:53:06:608 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/appium/device/info] with no body
+2022-07-05 15:53:06:624 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"androidId":"5b49dac986f77e4f","apiVersion":"25","bluetooth":{"state":"OFF"},"brand":"samsung","carrierName":"CMCC","displayDensity":320,"locale":"zh_CN","manufacturer":"samsung","model":"SM-G977N","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_VALIDATED","signalStrength":-55,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"\"WiredSSID\"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"7.1.2","realDisplaySize":"900x1600","timeZone":"Asia/Shanghai"}}
+2022-07-05 15:53:06:629 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys window'
+2022-07-05 15:53:06:728 [AndroidDriver] Screen already unlocked, doing nothing
+2022-07-05 15:53:06:729 [UiAutomator2] Starting 'com.tencent.mobileqq/.activity.SplashActivity and waiting for 'com.tencent.mobileqq/.activity.SplashActivity'
+2022-07-05 15:53:06:734 [ADB] Running 'E:\Android\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am start -W -n com.tencent.mobileqq/.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-07-05 15:53:09:705 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/appium/device/pixel_ratio] with no body
+2022-07-05 15:53:09:711 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":2}
+2022-07-05 15:53:09:712 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2022-07-05 15:53:09:712 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/appium/device/system_bars] with no body
+2022-07-05 15:53:09:720 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"statusBar":48}}
+2022-07-05 15:53:09:722 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2022-07-05 15:53:09:723 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/window/current/size] with no body
+2022-07-05 15:53:09:730 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"height":1600,"width":900}}
+2022-07-05 15:53:09:732 [Appium] New AndroidUiautomator2Driver session created successfully, session 1a964e14-f526-4a84-9425-9edcdcf3a440 added to master session list
+2022-07-05 15:53:09:734 [BaseDriver] Event 'newSessionStarted' logged at 1657007589734 (15:53:09 GMT+0800 (中国标准时间))
+2022-07-05 15:53:09:736 [W3C (1a964e14)] Cached the protocol value 'W3C' for the new session 1a964e14-f526-4a84-9425-9edcdcf3a440
+2022-07-05 15:53:09:739 [W3C (1a964e14)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.tencent.mobileqq","noReset":true,"resetKeyboard":true,"skipServerInstallation":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true},"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.tencent.mobileqq","noReset":true,"resetKeyboard":true,"skipServerInstallation":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true,"deviceName":"127.0.0.1:62001","deviceUDID":"127.0.0.1:62001","deviceApiLevel":25,"platformVersion":"7.1.2","deviceScreenSize":"900x1600","deviceScreenDensity":320,"deviceModel":"SM-G977N","deviceManufacturer":"samsung","pixelRatio":2,"statBarHeight":48,"viewportRect":{"left":0,"top":48,"width":900,"height":1552}}}
+2022-07-05 15:53:09:742 [HTTP] <-- POST /wd/hub/session 200 8867 ms - 1032
+2022-07-05 15:53:09:744 [HTTP] 
+2022-07-05 15:53:09:844 [HTTP] --> POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/timeouts
+2022-07-05 15:53:09:845 [HTTP] {"implicit":10000}
+2022-07-05 15:53:09:850 [W3C (1a964e14)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"1a964e14-f526-4a84-9425-9edcdcf3a440"]
+2022-07-05 15:53:09:850 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2022-07-05 15:53:09:851 [BaseDriver] Set implicit wait to 10000ms
+2022-07-05 15:53:09:851 [W3C (1a964e14)] Responding to client with driver.timeouts() result: null
+2022-07-05 15:53:09:852 [HTTP] <-- POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/timeouts 200 9 ms - 14
+2022-07-05 15:53:09:853 [HTTP] 
+2022-07-05 15:53:14:869 [HTTP] --> POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element
+2022-07-05 15:53:14:871 [HTTP] {"using":"accessibility id","value":"请输入QQ号码或手机"}
+2022-07-05 15:53:14:874 [W3C (1a964e14)] Calling AppiumDriver.findElement() with args: ["accessibility id","请输入QQ号码或手机","1a964e14-f526-4a84-9425-9edcdcf3a440"]
+2022-07-05 15:53:14:874 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-05 15:53:14:875 [BaseDriver] Waiting up to 10000 ms for condition
+2022-07-05 15:53:14:876 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:14:877 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:14:907 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:14:908 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:14:910 [BaseDriver] Waited for 34 ms so far
+2022-07-05 15:53:15:412 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:15:413 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:15:427 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:15:428 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:15:428 [BaseDriver] Waited for 553 ms so far
+2022-07-05 15:53:15:930 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:15:934 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:15:955 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:15:959 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:15:960 [BaseDriver] Waited for 1084 ms so far
+2022-07-05 15:53:16:461 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:16:462 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:16:476 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:16:477 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:16:477 [BaseDriver] Waited for 1602 ms so far
+2022-07-05 15:53:16:979 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:16:982 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:17:002 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:17:003 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:17:006 [BaseDriver] Waited for 2129 ms so far
+2022-07-05 15:53:17:507 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:17:509 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:17:529 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:17:530 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:17:533 [BaseDriver] Waited for 2656 ms so far
+2022-07-05 15:53:18:034 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:18:038 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:18:057 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:18:059 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:18:061 [BaseDriver] Waited for 3184 ms so far
+2022-07-05 15:53:18:564 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:18:571 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:18:593 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:18:594 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:18:596 [BaseDriver] Waited for 3720 ms so far
+2022-07-05 15:53:19:098 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:19:100 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:19:111 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:19:112 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:19:114 [BaseDriver] Waited for 4237 ms so far
+2022-07-05 15:53:19:614 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:19:616 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:19:628 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:19:629 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:19:634 [BaseDriver] Waited for 4754 ms so far
+2022-07-05 15:53:20:136 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:20:139 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:20:150 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:20:151 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:20:155 [BaseDriver] Waited for 5276 ms so far
+2022-07-05 15:53:20:657 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:20:661 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:20:683 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:20:688 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:20:689 [BaseDriver] Waited for 5814 ms so far
+2022-07-05 15:53:21:189 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:21:191 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:21:201 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:21:204 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:21:204 [BaseDriver] Waited for 6329 ms so far
+2022-07-05 15:53:21:706 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:21:709 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:21:729 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:21:731 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:21:733 [BaseDriver] Waited for 6856 ms so far
+2022-07-05 15:53:22:235 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:22:238 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:22:248 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:22:250 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:22:251 [BaseDriver] Waited for 7376 ms so far
+2022-07-05 15:53:22:753 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:22:758 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:22:769 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:22:771 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:22:773 [BaseDriver] Waited for 7897 ms so far
+2022-07-05 15:53:23:274 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:23:278 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:23:294 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:23:296 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:23:299 [BaseDriver] Waited for 8421 ms so far
+2022-07-05 15:53:23:800 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:23:802 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:23:815 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:23:816 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:23:818 [BaseDriver] Waited for 8942 ms so far
+2022-07-05 15:53:24:322 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:24:327 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:24:355 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:24:360 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:24:367 [BaseDriver] Waited for 9485 ms so far
+2022-07-05 15:53:24:869 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:24:871 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"accessibility id","selector":"请输入QQ号码或手机","context":"","multiple":false}
+2022-07-05 15:53:24:881 [WD Proxy] Got response with status 404: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:68)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:262)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:256)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-05 15:53:24:883 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-05 15:53:24:905 [W3C (1a964e14)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2022-07-05 15:53:24:906 [W3C (1a964e14)]     at AndroidUiautomator2Driver.findElOrEls (C:\Users\roy08\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+2022-07-05 15:53:24:909 [W3C (1a964e14)]     at runMicrotasks (<anonymous>)
+2022-07-05 15:53:24:909 [W3C (1a964e14)]     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-07-05 15:53:24:909 [W3C (1a964e14)]     at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\roy08\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+2022-07-05 15:53:24:910 [W3C (1a964e14)]     at AndroidUiautomator2Driver.findElement (C:\Users\roy08\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2022-07-05 15:53:24:911 [HTTP] <-- POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element 404 10042 ms - 997
+2022-07-05 15:53:24:911 [HTTP] 
+2022-07-05 15:53:24:934 [HTTP] --> POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element
+2022-07-05 15:53:24:936 [HTTP] {"using":"id","value":"com.tencent.mobileqq:id/password"}
+2022-07-05 15:53:24:938 [W3C (1a964e14)] Calling AppiumDriver.findElement() with args: ["id","com.tencent.mobileqq:id/password","1a964e14-f526-4a84-9425-9edcdcf3a440"]
+2022-07-05 15:53:24:938 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-05 15:53:24:939 [BaseDriver] Waiting up to 10000 ms for condition
+2022-07-05 15:53:24:939 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:24:939 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"id","selector":"com.tencent.mobileqq:id/password","context":"","multiple":false}
+2022-07-05 15:53:24:948 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"ELEMENT":"ef1d5ec9-c13f-45f9-994a-432f45b5a2ba","element-6066-11e4-a52e-4f735466cecf":"ef1d5ec9-c13f-45f9-994a-432f45b5a2ba"}}
+2022-07-05 15:53:24:948 [W3C (1a964e14)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"ef1d5ec9-c13f-45f9-994a-432f45b5a2ba","ELEMENT":"ef1d5ec9-c13f-45f9-994a-432f45b5a2ba"}
+2022-07-05 15:53:24:951 [HTTP] <-- POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element 200 15 ms - 137
+2022-07-05 15:53:24:952 [HTTP] 
+2022-07-05 15:53:24:956 [HTTP] --> POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/ef1d5ec9-c13f-45f9-994a-432f45b5a2ba/clear
+2022-07-05 15:53:24:958 [HTTP] {"id":"ef1d5ec9-c13f-45f9-994a-432f45b5a2ba"}
+2022-07-05 15:53:24:960 [W3C (1a964e14)] Calling AppiumDriver.clear() with args: ["ef1d5ec9-c13f-45f9-994a-432f45b5a2ba","1a964e14-f526-4a84-9425-9edcdcf3a440"]
+2022-07-05 15:53:24:961 [WD Proxy] Matched '/element/ef1d5ec9-c13f-45f9-994a-432f45b5a2ba/clear' to command name 'clear'
+2022-07-05 15:53:24:961 [WD Proxy] Proxying [POST /element/ef1d5ec9-c13f-45f9-994a-432f45b5a2ba/clear] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element/ef1d5ec9-c13f-45f9-994a-432f45b5a2ba/clear] with body: {"elementId":"ef1d5ec9-c13f-45f9-994a-432f45b5a2ba"}
+2022-07-05 15:53:24:978 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":null}
+2022-07-05 15:53:24:979 [W3C (1a964e14)] Responding to client with driver.clear() result: null
+2022-07-05 15:53:24:983 [HTTP] <-- POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/ef1d5ec9-c13f-45f9-994a-432f45b5a2ba/clear 200 24 ms - 14
+2022-07-05 15:53:24:983 [HTTP] 
+2022-07-05 15:53:24:989 [HTTP] --> POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/ef1d5ec9-c13f-45f9-994a-432f45b5a2ba/value
+2022-07-05 15:53:24:989 [HTTP] {"id":"ef1d5ec9-c13f-45f9-994a-432f45b5a2ba","text":"roy12345","value":["r","o","y","1","2","3","4","5"]}
+2022-07-05 15:53:24:992 [W3C (1a964e14)] Calling AppiumDriver.setValue() with args: [["r","o","y","1","2","3","4","5"],"ef1d5ec9-c13f-45f9-994a-432f45b5a2ba","1a964e14-f526-4a84-9425-9edcdcf3a440"]
+2022-07-05 15:53:24:993 [WD Proxy] Matched '/element/ef1d5ec9-c13f-45f9-994a-432f45b5a2ba/value' to command name 'setValue'
+2022-07-05 15:53:24:994 [Protocol Converter] Added 'value' property ["r","o","y","1","2","3","4","5"] to 'setValue' request body
+2022-07-05 15:53:24:994 [WD Proxy] Proxying [POST /element/ef1d5ec9-c13f-45f9-994a-432f45b5a2ba/value] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element/ef1d5ec9-c13f-45f9-994a-432f45b5a2ba/value] with body: {"elementId":"ef1d5ec9-c13f-45f9-994a-432f45b5a2ba","text":"roy12345","replace":false,"unicodeKeyboard":true,"value":["r","o","y","1","2","3","4","5"]}
+2022-07-05 15:53:26:096 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":null}
+2022-07-05 15:53:26:098 [W3C (1a964e14)] Responding to client with driver.setValue() result: null
+2022-07-05 15:53:26:103 [HTTP] <-- POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/ef1d5ec9-c13f-45f9-994a-432f45b5a2ba/value 200 1111 ms - 14
+2022-07-05 15:53:26:103 [HTTP] 
+2022-07-05 15:53:26:105 [HTTP] --> POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element
+2022-07-05 15:53:26:105 [HTTP] {"using":"xpath","value":"//*[@content-desc=\"登 录\"]"}
+2022-07-05 15:53:26:106 [W3C (1a964e14)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@content-desc=\"登 录\"]","1a964e14-f526-4a84-9425-9edcdcf3a440"]
+2022-07-05 15:53:26:106 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-05 15:53:26:110 [BaseDriver] Waiting up to 10000 ms for condition
+2022-07-05 15:53:26:110 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:26:111 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"xpath","selector":"//*[@content-desc=\"登 录\"]","context":"","multiple":false}
+2022-07-05 15:53:26:626 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"ELEMENT":"cd861c29-4e17-4ae8-b1c3-489972408762","element-6066-11e4-a52e-4f735466cecf":"cd861c29-4e17-4ae8-b1c3-489972408762"}}
+2022-07-05 15:53:26:627 [W3C (1a964e14)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"cd861c29-4e17-4ae8-b1c3-489972408762","ELEMENT":"cd861c29-4e17-4ae8-b1c3-489972408762"}
+2022-07-05 15:53:26:631 [HTTP] <-- POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element 200 523 ms - 137
+2022-07-05 15:53:26:632 [HTTP] 
+2022-07-05 15:53:26:634 [HTTP] --> POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/cd861c29-4e17-4ae8-b1c3-489972408762/click
+2022-07-05 15:53:26:634 [HTTP] {"id":"cd861c29-4e17-4ae8-b1c3-489972408762"}
+2022-07-05 15:53:26:634 [W3C (1a964e14)] Calling AppiumDriver.click() with args: ["cd861c29-4e17-4ae8-b1c3-489972408762","1a964e14-f526-4a84-9425-9edcdcf3a440"]
+2022-07-05 15:53:26:637 [WD Proxy] Matched '/element/cd861c29-4e17-4ae8-b1c3-489972408762/click' to command name 'click'
+2022-07-05 15:53:26:640 [WD Proxy] Proxying [POST /element/cd861c29-4e17-4ae8-b1c3-489972408762/click] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element/cd861c29-4e17-4ae8-b1c3-489972408762/click] with body: {"element":"cd861c29-4e17-4ae8-b1c3-489972408762"}
+2022-07-05 15:53:27:933 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":null}
+2022-07-05 15:53:27:937 [W3C (1a964e14)] Responding to client with driver.click() result: null
+2022-07-05 15:53:27:938 [HTTP] <-- POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/cd861c29-4e17-4ae8-b1c3-489972408762/click 200 1304 ms - 14
+2022-07-05 15:53:27:939 [HTTP] 
+2022-07-05 15:53:32:943 [HTTP] --> POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element
+2022-07-05 15:53:32:945 [HTTP] {"using":"id","value":"com.tencent.mobileqq:id/ws"}
+2022-07-05 15:53:32:947 [W3C (1a964e14)] Calling AppiumDriver.findElement() with args: ["id","com.tencent.mobileqq:id/ws","1a964e14-f526-4a84-9425-9edcdcf3a440"]
+2022-07-05 15:53:32:948 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-05 15:53:32:948 [BaseDriver] Waiting up to 10000 ms for condition
+2022-07-05 15:53:32:949 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-05 15:53:32:949 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element] with body: {"strategy":"id","selector":"com.tencent.mobileqq:id/ws","context":"","multiple":false}
+2022-07-05 15:53:32:963 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"ELEMENT":"94c6bd07-55f1-401c-b9a9-0fa033009624","element-6066-11e4-a52e-4f735466cecf":"94c6bd07-55f1-401c-b9a9-0fa033009624"}}
+2022-07-05 15:53:32:964 [W3C (1a964e14)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"94c6bd07-55f1-401c-b9a9-0fa033009624","ELEMENT":"94c6bd07-55f1-401c-b9a9-0fa033009624"}
+2022-07-05 15:53:32:967 [HTTP] <-- POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element 200 21 ms - 137
+2022-07-05 15:53:32:967 [HTTP] 
+2022-07-05 15:53:32:972 [HTTP] --> GET /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/94c6bd07-55f1-401c-b9a9-0fa033009624/location
+2022-07-05 15:53:32:974 [HTTP] {}
+2022-07-05 15:53:32:976 [W3C (1a964e14)] Driver proxy active, passing request on via HTTP proxy
+2022-07-05 15:53:32:978 [WD Proxy] Matched '/wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/94c6bd07-55f1-401c-b9a9-0fa033009624/location' to command name 'getLocation'
+2022-07-05 15:53:32:979 [WD Proxy] Proxying [GET /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/94c6bd07-55f1-401c-b9a9-0fa033009624/location] to [GET http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element/94c6bd07-55f1-401c-b9a9-0fa033009624/location] with no body
+2022-07-05 15:53:32:994 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"x":0,"y":49}}
+2022-07-05 15:53:32:995 [WD Proxy] Replacing sessionId 76757057-b291-40e9-ba52-f7ac76c3a44e with 1a964e14-f526-4a84-9425-9edcdcf3a440
+2022-07-05 15:53:33:000 [HTTP] <-- GET /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/94c6bd07-55f1-401c-b9a9-0fa033009624/location 200 24 ms - 75
+2022-07-05 15:53:33:000 [HTTP] 
+2022-07-05 15:53:33:003 [HTTP] --> GET /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/94c6bd07-55f1-401c-b9a9-0fa033009624/size
+2022-07-05 15:53:33:004 [HTTP] {}
+2022-07-05 15:53:33:007 [W3C (1a964e14)] Driver proxy active, passing request on via HTTP proxy
+2022-07-05 15:53:33:008 [WD Proxy] Matched '/wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/94c6bd07-55f1-401c-b9a9-0fa033009624/size' to command name 'getSize'
+2022-07-05 15:53:33:008 [WD Proxy] Proxying [GET /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/94c6bd07-55f1-401c-b9a9-0fa033009624/size] to [GET http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/element/94c6bd07-55f1-401c-b9a9-0fa033009624/size] with no body
+2022-07-05 15:53:33:015 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"height":100,"width":900}}
+2022-07-05 15:53:33:015 [WD Proxy] Replacing sessionId 76757057-b291-40e9-ba52-f7ac76c3a44e with 1a964e14-f526-4a84-9425-9edcdcf3a440
+2022-07-05 15:53:33:018 [HTTP] <-- GET /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/element/94c6bd07-55f1-401c-b9a9-0fa033009624/size 200 13 ms - 87
+2022-07-05 15:53:33:019 [HTTP] 
+2022-07-05 15:53:33:025 [HTTP] --> POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/touch/perform
+2022-07-05 15:53:33:026 [HTTP] {"actions":[{"action":"tap","options":{"x":64,"y":99}}]}
+2022-07-05 15:53:33:028 [W3C (1a964e14)] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"x":64,"y":99}}],"1a964e14-f526-4a84-9425-9edcdcf3a440"]
+2022-07-05 15:53:33:031 [WD Proxy] Proxying [POST /appium/tap] to [POST http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/appium/tap] with body: {"x":64,"y":99,"undefined":null}
+2022-07-05 15:53:33:141 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":null}
+2022-07-05 15:53:33:145 [W3C (1a964e14)] Responding to client with driver.performTouch() result: null
+2022-07-05 15:53:33:147 [HTTP] <-- POST /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/touch/perform 200 121 ms - 14
+2022-07-05 15:53:33:148 [HTTP] 
+2022-07-05 15:53:33:153 [HTTP] --> GET /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/window/rect
+2022-07-05 15:53:33:153 [HTTP] {}
+2022-07-05 15:53:33:158 [W3C (1a964e14)] Calling AppiumDriver.getWindowRect() with args: ["1a964e14-f526-4a84-9425-9edcdcf3a440"]
+2022-07-05 15:53:33:159 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2022-07-05 15:53:33:160 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/window/current/size] with no body
+2022-07-05 15:53:33:170 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"height":1600,"width":900}}
+2022-07-05 15:53:33:173 [W3C (1a964e14)] Responding to client with driver.getWindowRect() result: {"width":900,"height":1600,"x":0,"y":0}
+2022-07-05 15:53:33:176 [HTTP] <-- GET /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/window/rect 200 21 ms - 49
+2022-07-05 15:53:33:176 [HTTP] 
+2022-07-05 15:53:33:179 [HTTP] --> GET /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/window/rect
+2022-07-05 15:53:33:180 [HTTP] {}
+2022-07-05 15:53:33:184 [W3C (1a964e14)] Calling AppiumDriver.getWindowRect() with args: ["1a964e14-f526-4a84-9425-9edcdcf3a440"]
+2022-07-05 15:53:33:185 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2022-07-05 15:53:33:186 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/76757057-b291-40e9-ba52-f7ac76c3a44e/window/current/size] with no body
+2022-07-05 15:53:33:188 [WD Proxy] Got response with status 200: {"sessionId":"76757057-b291-40e9-ba52-f7ac76c3a44e","value":{"height":1600,"width":900}}
+2022-07-05 15:53:33:189 [W3C (1a964e14)] Responding to client with driver.getWindowRect() result: {"width":900,"height":1600,"x":0,"y":0}
+2022-07-05 15:53:33:190 [HTTP] <-- GET /wd/hub/session/1a964e14-f526-4a84-9425-9edcdcf3a440/window/rect 200 10 ms - 49
+2022-07-05 15:53:33:191 [HTTP] 
+2022-07-05 15:53:41:687 [Logcat] Logcat terminated with code 3221225786, signal null

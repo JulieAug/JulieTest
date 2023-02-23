@@ -1,0 +1,11 @@
+20:18:01  [INFO ] : 点击元素//a[text()='返回商城首页']
+20:18:01  [INFO ] : 向//input[@id='q']元素输入{随机商品}
+20:18:02  [INFO ] : 点击元素//button[@type='submit']
+20:18:04  [INFO ] : 点击元素//div[@class='shop-list-splb p']/ul/li[1]//div[@class='xs_img']/a
+20:18:04  [INFO ] : 点击元素//*[@id='join_cart']
+20:18:04  [INFO ] : 切换到xpath为//iframe[contains(@id,'lay')]的iframe
+20:18:05  [INFO ] : 等待1.0秒
+20:18:06  [INFO ] : 点击元素//a[text()='去购物车结算']
+20:18:07  [INFO ] : 点击元素//a[text()='去结算']
+20:18:07  [INFO ] : 点击元素//button[contains(text(),'提交订单')]
+20:18:08  [INFO ] : 浏览器已关闭

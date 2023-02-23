@@ -1,0 +1,18 @@
+15:53:14  [INFO ] : 等待5.0秒
+15:53:14  [INFO ] : 启动app:com.tencent.mobileqq成功
+15:53:24  [ERROR] : 向定位表达式|aid|请输入QQ号码或手机输入内容失败
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [1a964e14-f526-4a84-9425-9edcdcf3a440, findElement {using=accessibility id, value=请输入QQ号码或手机}]
+Capabilities {appium:appActivity: .activity.SplashActivity, appium:appPackage: com.tencent.mobileqq, appium:databaseEnabled: false, appium:desired: {appActivity: .activity.SplashActivity, appPackage: com.tencent.mobileqq, noReset: true, platformName: android, resetKeyboard: true, skipServerInstallation: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, appium:deviceApiLevel: 25, appium:deviceManufacturer: samsung, appium:deviceModel: SM-G977N, appium:deviceName: 127.0.0.1:62001, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 900x1600, appium:deviceUDID: 127.0.0.1:62001, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 7.1.2, appium:resetKeyboard: true, appium:skipServerInstallation: true, appium:statBarHeight: 48, appium:takesScreenshot: true, appium:udid: 127.0.0.1:62001, appium:unicodeKeyboard: true, appium:viewportRect: {height: 1552, left: 0, top: 48, width: 900}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 1a964e14-f526-4a84-9425-9edcdcf3a440
+	at com.testing.app.AppKeyword.input(AppKeyword.java:163) [classes/:?]
+	at com.testing.class10.TestQQWithKw.main(TestQQWithKw.java:18) [classes/:?]
+15:53:26  [INFO ] : 向定位表达式|id|com.tencent.mobileqq:id/password输入内容roy12345
+15:53:27  [INFO ] : 正在点击//*[@content-desc="登 录"]
+15:53:32  [INFO ] : 等待5.0秒
+15:53:33  [INFO ] : 点击的坐标位置是64,99
+15:53:33  [INFO ] : 开始执行cmd命令adb shell input tap 64 100

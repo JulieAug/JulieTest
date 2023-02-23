@@ -1,0 +1,31 @@
+21:46:08  [INFO ] : 浏览器已完成启动
+21:46:08  [INFO ] : 正在访问http://www.testingedu.com.cn:8000/index.php/Admin/Index/index
+21:46:09  [INFO ] : 正在设置窗口位置
+21:46:16  [INFO ] : 点击元素//a[text()='商城']
+21:46:16  [INFO ] : 切换到id为workspace的iframe
+21:46:17  [INFO ] : 点击元素//span[text()='添加商品']
+21:46:17  [INFO ] : 向//input[@name="goods_name"]元素输入{ROY随机商品}
+21:46:17  [INFO ] : 点击元素//select[@id='cat_id']
+21:46:17  [INFO ] : 点击元素//option[@value='31']
+21:46:17  [INFO ] : 等待0.5秒
+21:46:18  [INFO ] : 操作select元素//select[@id='cat_id_2']选择value34
+21:46:18  [INFO ] : 等待0.5秒
+21:46:18  [INFO ] : 操作select元素//select[@id='cat_id_3']选择文本手机壳
+21:46:18  [INFO ] : 向//input[@name='shop_price']元素输入666
+21:46:18  [INFO ] : 向//input[@name='market_price']元素输入668
+21:46:18  [INFO ] : 点击元素//input[@onclick and contains(@title,'预览图')]
+21:46:19  [INFO ] : 切换到xpath为//iframe[contains(@id,'layui')]的iframe
+21:46:19  [INFO ] : 向//div[text()='点击选择文件']/following-sibling::div/input元素输入E:\QSwork\素材\微信二维码.png
+21:46:20  [INFO ] : 等待1.0秒
+21:46:20  [INFO ] : 点击元素//div[text()='确定使用']
+21:46:20  [INFO ] : 切换到父级Frame
+21:46:20  [INFO ] : 点击元素//label[text()='是' and @id]
+21:46:20  [INFO ] : 正在执行jswindow.scrollTo(0,2000)
+21:46:30  [INFO ] : 切换到id为ueditor_0的iframe
+21:46:30  [INFO ] : 执行js语句arguments[0].innerText='测试输入'
+21:46:30  [INFO ] : 切换到父级Frame
+21:46:31  [INFO ] : 点击元素//a[@id='submit']
+21:46:34  [INFO ] : 断言的时候实际结果是roy4617
+21:46:34  [INFO ] : 预期结果是{ROY随机商品}替换变量后的值是roy4617
+21:46:34  [INFO ] : 测试成功
+21:46:34  [INFO ] : 测试成功

@@ -1,0 +1,4 @@
+20:30:47  [INFO ] : {"status":200,"msg":"success","token":"4ed5c78054714b68bba9bd0532d1341c"}
+20:30:48  [INFO ] : 解析$.token得到的结果是4ed5c78054714b68bba9bd0532d1341c存储为token
+20:30:48  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"10635"}
+20:30:48  [INFO ] : 测试成功

@@ -1,0 +1,26 @@
+15:52:18  [INFO ] : 开始执行cmd命令appium -g log/Appium0705-1552.log --log-timestamp --local-timezone -p12345
+15:52:18  [INFO ] : 正在启动Appium服务端，请注意appium服务端日志
+15:52:43  [ERROR] : 启动app时报错，请检查appium服务端日志
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20074ms.
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-ATQ3D2C', ip: '192.168.95.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=.activity.SplashActivity, appium:appPackage=com.tencent.mobileqq, appium:noReset=true, platformName=Android, appium:resetKeyboard=true, appium:skipServerInstallation=true, appium:udid=127.0.0.1:62001, appium:unicodeKeyboard=true}], desiredCapabilities=Capabilities {appActivity: .activity.SplashActivity, appPackage: com.tencent.mobileqq, noReset: true, platformName: Android, resetKeyboard: true, skipServerInstallation: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}}]
+Capabilities {}
+	at com.testing.app.AppKeyword.startAPP(AppKeyword.java:107) [classes/:?]
+	at com.testing.class10.TestQQWithKw.main(TestQQWithKw.java:16) [classes/:?]
+15:52:43  [ERROR] : 向定位表达式|aid|请输入QQ号码或手机输入内容失败
+java.lang.NullPointerException: null
+	at com.testing.app.AppKeyword.input(AppKeyword.java:163) [classes/:?]
+	at com.testing.class10.TestQQWithKw.main(TestQQWithKw.java:18) [classes/:?]
+15:52:43  [ERROR] : 向定位表达式|id|com.tencent.mobileqq:id/password输入内容失败
+java.lang.NullPointerException: null
+	at com.testing.app.AppKeyword.input(AppKeyword.java:163) [classes/:?]
+	at com.testing.class10.TestQQWithKw.main(TestQQWithKw.java:19) [classes/:?]
+15:52:43  [ERROR] : 点击//*[@content-desc="登 录"]失败
+java.lang.NullPointerException: null
+	at com.testing.app.AppKeyword.click(AppKeyword.java:175) [classes/:?]
+	at com.testing.class10.TestQQWithKw.main(TestQQWithKw.java:20) [classes/:?]
+15:52:48  [INFO ] : 等待5.0秒
+15:52:58  [INFO ] : 开始执行cmd命令appium -g log/Appium0705-1552.log --log-timestamp --local-timezone -p12345
+15:52:58  [INFO ] : 正在启动Appium服务端，请注意appium服务端日志

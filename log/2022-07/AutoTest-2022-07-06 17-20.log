@@ -1,0 +1,52 @@
+17:20:27  [INFO ] : 浏览器已完成启动
+17:20:27  [INFO ] : 正在访问http://www.testingedu.com.cn:8000/Admin/Admin/login
+17:20:28  [INFO ] : 正在设置窗口位置
+17:20:28  [INFO ] : 向//input[@name='username']元素输入admin
+17:20:28  [INFO ] : 向//input[@name='password']元素输入123456
+17:20:28  [INFO ] : 向//input[@name='vertify']元素输入1
+17:20:29  [INFO ] : 点击元素//input[@value='登录']
+17:20:29  [INFO ] : 正在访问http://www.testingedu.com.cn:8000/index.php/Admin/Index/index
+17:20:30  [INFO ] : 正在设置窗口位置
+17:20:30  [INFO ] : 点击元素//a[text()='商城']
+17:20:30  [INFO ] : 切换到id为workspace的iframe
+17:20:31  [INFO ] : 点击元素//span[text()='添加商品']
+17:20:31  [INFO ] : 向//input[@name="goods_name"]元素输入{ROY随机商品}
+17:20:31  [INFO ] : 点击元素//select[@id='cat_id']
+17:20:31  [INFO ] : 点击元素//option[@value='31']
+17:20:31  [INFO ] : 等待0.5秒
+17:20:31  [INFO ] : 操作select元素//select[@id='cat_id_2']选择value34
+17:20:32  [INFO ] : 等待0.5秒
+17:20:32  [INFO ] : 操作select元素//select[@id='cat_id_3']选择文本手机壳
+17:20:32  [INFO ] : 向//input[@name='shop_price']元素输入666
+17:20:32  [INFO ] : 向//input[@name='market_price']元素输入668
+17:20:32  [INFO ] : 点击元素//input[@onclick and contains(@title,'预览图')]
+17:20:32  [INFO ] : 切换到xpath为//iframe[contains(@id,'layui')]的iframe
+17:20:32  [INFO ] : 向//div[text()='点击选择文件']/following-sibling::div/input元素输入E:\QSwork\素材\微信二维码.png
+17:20:33  [INFO ] : 等待1.0秒
+17:20:34  [INFO ] : 点击元素//div[text()='确定使用']
+17:20:34  [INFO ] : 切换到父级Frame
+17:20:34  [INFO ] : 点击元素//label[text()='是' and @id]
+17:20:34  [INFO ] : 正在执行jswindow.scrollTo(0,2000)
+17:20:44  [INFO ] : 切换到id为ueditor_0的iframe
+17:20:44  [INFO ] : 执行js语句arguments[0].innerText='测试输入'
+17:20:44  [INFO ] : 切换到父级Frame
+17:20:44  [INFO ] : 点击元素//a[@id='submit']
+17:20:47  [INFO ] : 断言的时候实际结果是dly2031
+17:20:47  [INFO ] : 预期结果是{ROY随机商品}替换变量后的值是dly2031
+17:20:47  [INFO ] : 测试成功
+17:20:48  [INFO ] : 测试成功
+17:20:48  [INFO ] : 浏览器已关闭
+17:20:50  [INFO ] : 浏览器已完成启动
+17:20:50  [INFO ] : 正在访问http://www.testingedu.com.cn:8000/
+17:20:51  [INFO ] : 正在设置窗口位置
+17:20:52  [INFO ] : 点击元素//a[text()='登录']
+17:20:52  [INFO ] : 通过id定位方法以username定位并输入13800138006
+17:20:52  [INFO ] : 向元素#password输入内容123456
+17:20:52  [INFO ] : 向元素#verify_code输入内容1
+17:20:52  [INFO ] : 点击元素//a[@name='sbtbutton']
+17:20:54  [INFO ] : 点击元素//a[text()='返回商城首页']
+17:20:54  [INFO ] : 向//input[@id='q']元素输入{ROY随机商品}
+17:20:55  [INFO ] : 点击元素//button[text()='搜索']
+17:20:55  [INFO ] : 获取元素//div[@class='shop-list-splb p']/ul/li[1]//div[@class='shop_name2']/a文本内容为dly2031
+17:20:55  [INFO ] : 获取元素//div[@class='shop-list-splb p']/ul/li[1]//div[@class='price-tag']/span[@class='old']/em[2]文本内容为668.00
+17:20:56  [INFO ] : 获取元素//div[@class='shop-list-splb p']/ul/li[1]//div[@class='price-tag']/span[@class='now']/em[2]文本内容为666.00

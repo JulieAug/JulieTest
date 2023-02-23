@@ -1,0 +1,29 @@
+21:29:25  [INFO ] : 注册用户,,, ,,,,,,,,
+21:29:25  [INFO ] : ,注册用户,,,,,,,,,,
+21:29:25  [INFO ] : 3,,清空头,clearHeader,,,,,,,,
+21:29:25  [INFO ] : 4,,鉴权接口签发token,postUrl,http://www.testingedu.com.cn:8081/inter/HTTP/auth,,,jsonValueCheck,$.status,200,,
+21:29:26  [INFO ] : {"status":200,"msg":"success","token":"f3790e47352e4f08bcb6a0644b72670b"}
+21:29:26  [INFO ] : 测试成功
+21:29:26  [INFO ] : 5,,保存参数,saveJsonParam,token,$.token,,,,,,
+21:29:26  [INFO ] : 解析$.token得到的结果是f3790e47352e4f08bcb6a0644b72670b存储为token
+21:29:26  [INFO ] : 6,,添加头域,addHeader,{"token":"{token}"},,,,,,,
+21:29:26  [INFO ] : 7,,注册,postUrl,http://www.testingedu.com.cn:8081/inter/HTTP/register,username=Tester55&pwd=123456&nickname=测试账号&describe=这个账号，是一个测试注册的账号,,jsonValueCheck,$.status,200,,
+21:29:26  [INFO ] : {"status":401,"msg":"用户已被注册"}
+21:29:26  [ERROR] : 测试失败，实际值是401
+21:29:26  [INFO ] : 登录,,, ,,,,,,,,
+21:29:26  [INFO ] : ,登录,,,,,,,,,,
+21:29:26  [INFO ] : 10,,登录,postUrl,http://www.testingedu.com.cn:8081/inter/HTTP/login,username=Tester55&password=123456,,jsonValueCheck,$.msg,恭喜您，登录成功,,
+21:29:26  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"17207"}
+21:29:26  [INFO ] : 测试成功
+21:29:26  [INFO ] : 11,,保存参数,saveJsonParam,id,$.userid,,,,,,
+21:29:26  [INFO ] : 解析$.userid得到的结果是17207存储为id
+21:29:26  [INFO ] : 用户信息,,, ,,,,,,,,
+21:29:26  [INFO ] : ,用户信息,,,,,,,,,,
+21:29:26  [INFO ] : 14,,获取用户信息,postUrl,http://www.testingedu.com.cn:8081/inter/HTTP/getUserInfo,id={id},,jsonValueCheck,$.msg,查询成功,,
+21:29:27  [INFO ] : {"status":200,"msg":"查询成功","nickname":"测试账号","id":"17207","describe":"这个账号，是一个测试注册的账号"}
+21:29:27  [INFO ] : 测试成功
+21:29:27  [INFO ] : 登出,,, ,,,,,,,,
+21:29:27  [INFO ] : ,登出,,,,,,,,,,
+21:29:27  [INFO ] : 17,,登出,postUrl,http://www.testingedu.com.cn:8081/inter/HTTP/logout,,,jsonValueCheck,$.msg,用户已退出登录,,
+21:29:27  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+21:29:27  [INFO ] : 测试成功

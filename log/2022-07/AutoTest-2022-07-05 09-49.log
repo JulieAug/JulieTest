@@ -1,0 +1,11 @@
+09:49:37  [INFO ] : {"status":200,"msg":"success","token":"f80fa7674d3246a79a7a53979730058d"}
+09:49:37  [INFO ] : 解析$.token得到的结果是f80fa7674d3246a79a7a53979730058d存储为token值
+09:49:37  [INFO ] : 测试成功
+09:49:37  [INFO ] : {"status":200,"msg":"注册成功"}
+09:49:37  [INFO ] : {"status":200,"msg":"恭喜您，登录成功","userid":"16896"}
+09:49:37  [INFO ] : 解析$.userid得到的结果是16896存储为用户id
+09:49:37  [INFO ] : 测试成功
+09:49:37  [INFO ] : {"status":200,"msg":"查询成功","nickname":"roy老师","id":"16896","describe":"royrest"}
+09:49:37  [INFO ] : 测试成功
+09:49:37  [INFO ] : {"status":200,"msg":"用户已退出登录"}
+09:49:37  [INFO ] : 测试成功

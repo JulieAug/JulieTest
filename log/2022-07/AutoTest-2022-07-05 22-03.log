@@ -1,0 +1,9 @@
+22:03:06  [INFO ] : 切换到id为ueditor_0的iframe
+22:03:06  [INFO ] : 执行js语句arguments[0].innerText='测试输入'
+22:03:06  [INFO ] : 切换到父级Frame
+22:03:06  [INFO ] : 点击元素//a[@id='submit']
+22:03:09  [INFO ] : 断言的时候实际结果是roy0252
+22:03:09  [INFO ] : 预期结果是{ROY随机商品}替换变量后的值是roy0252
+22:03:09  [INFO ] : 测试成功
+22:03:10  [INFO ] : 测试成功
+22:03:11  [INFO ] : 浏览器已关闭

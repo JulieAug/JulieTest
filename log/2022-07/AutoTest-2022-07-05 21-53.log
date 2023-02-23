@@ -1,0 +1,8 @@
+21:53:27  [INFO ] : 浏览器已完成启动
+21:53:27  [INFO ] : 正在访问http://www.testingedu.com.cn:8000/Admin/Admin/login
+21:53:28  [INFO ] : 正在设置窗口位置
+21:53:28  [INFO ] : 向//input[@name='username']元素输入admin
+21:53:29  [INFO ] : 向//input[@name='password']元素输入123456
+21:53:29  [INFO ] : 向//input[@name='vertify']元素输入1
+21:53:30  [INFO ] : 点击元素//input[@value='登录']
+21:53:31  [INFO ] : 浏览器已关闭
