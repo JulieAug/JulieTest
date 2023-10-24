@@ -2,9 +2,9 @@ package runner;
 
 import common.AutoTools;
 import common.Report;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
-public class julieTest {
+public class JulieTest {
 
     @Test
     public void bigbioyTest() throws Exception {
