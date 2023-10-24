@@ -20,7 +20,7 @@ public class SendMail {
 	// 网易163邮箱的 SMTP 服务器地址为: smtp.163.com QQ邮箱为smtp.qq.com 在各大邮箱的设置中能够找到。
 	public String myEmailSMTPHost = "smtp.qq.com";
 	// 收件人邮箱（替换为自己知道的有效邮箱）
-	public String receiveMailAccount = "1678255738@qq.com,zhuli@bigboy.club";
+	public String receiveMailAccount = "1678255738@qq.com";
 	// 昵称,尽量设定，避免被识别为垃圾邮件
 	public String nickname="Julie自动化测试";
 	// 抄送名单

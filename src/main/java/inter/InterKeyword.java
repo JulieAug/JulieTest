@@ -3,16 +3,12 @@ package inter;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONPath;
-import com.jayway.restassured.specification.RequestSpecification;
 import common.AutoTools;
 import common.ExcelWriter;
 import driverself.HttpDriver;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import com.jayway.restassured.response.Response;
-import sun.tools.jstat.Jstat;
-
 
 /**
  * @Classname InterKeyword
@@ -22,7 +18,6 @@ import sun.tools.jstat.Jstat;
  */
 public class InterKeyword extends AutoTools {
     private HttpDriver driver;
-    private RequestSpecification request;
 
     /**
      * 只有发包类的方法才会修改result，其它方法都是使用它。
@@ -93,7 +88,7 @@ public class InterKeyword extends AutoTools {
         if (writer != null) {
             //如果没有传信息，就直接写result
             if(msg.length==0) {
-                writer.writeFailCell(writeLine, ACTUAL_COL, String.valueOf(result));
+                writer.writeFailCell(writeLine, ACTUAL_COL, result);
             }else{
                 writer.writeFailCell(writeLine,ACTUAL_COL,msg[0]);
             }
@@ -112,20 +107,13 @@ public class InterKeyword extends AutoTools {
         log.info(result);
     }
 
-
-    /**
-     * post方法--url + body传参
-     * @param url
-     * @param param
-     */
-    public void post(String url,String param) {
-        result = decodeUnicode(driver.postJson(replaceParam(url),replaceParam(param)));
+    public void post(String url, String type, String param) {
+        result = decodeUnicode(driver.post(replaceParam(url), type, replaceParam(param)));
         log.info(result);
     }
 
-
     /**
-     * post——请求url格式
+     * 请求url格式
      *
      * @param url
      * @param param
@@ -140,12 +128,6 @@ public class InterKeyword extends AutoTools {
         log.info(result);
     }
 
-    /**
-     * put请求
-     * @param url
-     * @param type
-     * @param param
-     */
     public void put(String url, String type, String param) {
         result = decodeUnicode(driver.put(replaceParam(url), type, replaceParam(param)));
         log.info(result);
@@ -201,15 +183,8 @@ public class InterKeyword extends AutoTools {
     }
 
     /****************************************参数处理操作*****************************/
-    /**
-     * 登录接口返回结果，解析获取token
-     * @param jsonPath
-     * @return
-     */
     public String jsonGetResult(String jsonPath) {
-        System.out.println("解析"+result);
-        JSONObject jsonObject = JSONObject.parseObject(result);
-        return jsonObject.getJSONObject("data").getString("token");
+        return JSONPath.read(result, jsonPath).toString();
     }
 
     /**
@@ -220,11 +195,10 @@ public class InterKeyword extends AutoTools {
      */
     public void saveJsonParam(String key, String jsonPath) {
         try {
-            saveParam(key,jsonGetResult(jsonPath));
+            saveParam(key, jsonGetResult(jsonPath));
             log.info("解析" + jsonPath + "得到的结果是" + jsonGetResult(jsonPath) + "存储为" + key);
             setPass();
         } catch (Exception e) {
-            System.out.println(jsonGetResult(jsonPath));
             log.error("解析json内容失败", e.fillInStackTrace());
             setFail();
             writeFailResult(e.fillInStackTrace().toString());
@@ -238,16 +212,14 @@ public class InterKeyword extends AutoTools {
      * @param pattern
      */
     public void saveRegexParam(String key, String pattern) {
-        System.out.println("key:"+key+",pattern:"+pattern);
         try {
             Pattern resultPat = Pattern.compile(pattern);
-            Matcher matcher = resultPat.matcher((CharSequence) result);
+            Matcher matcher = resultPat.matcher(result);
             if (matcher.find()) {
                 paramMap.put(key, matcher.group(1));
                 log.info("解析正则获取到的结果是"+matcher.group(1));
                 setPass();
             } else {
-                System.out.println("=====输出2："+matcher.group(1));
                 paramMap.put(key, "正则获取结果失败了");
                 setFail();
                 writeFailResult("正则获取"+pattern+"结果失败了");
@@ -351,4 +323,6 @@ public class InterKeyword extends AutoTools {
             return false;
         }
     }
+
+
 }

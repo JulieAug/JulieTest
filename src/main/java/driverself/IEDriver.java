@@ -1,13 +1,13 @@
 package driverself;
 
-import java.io.File;
-import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerDriverService;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+
+import java.io.File;
+import java.io.IOException;
 
 public class IEDriver { // IE浏览器驱动类
     public WebDriver driver = null;
