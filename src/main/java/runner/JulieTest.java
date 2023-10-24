@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class JulieTest {
 
     @Test
-    public void bigbioyTest() throws Exception {
+    public void boxActivityTest() throws Exception {
         String startTime = AutoTools.getDateTime();
         String resultFileName= "cases/Result/结果-接口" +startTime;
         String fileName = "cases/boxActivityCases.xlsx";
