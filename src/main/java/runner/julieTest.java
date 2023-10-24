@@ -9,8 +9,8 @@ public class julieTest {
     @Test
     public void bigbioyTest() throws Exception {
         String startTime = AutoTools.getDateTime();
-        String resultFileName="Cases/Result/结果-接口"+startTime;
-        String fileName = "Cases/boxActivityCases.xlsx";
+        String resultFileName= "cases/Result/结果-接口" +startTime;
+        String fileName = "cases/boxActivityCases.xlsx";
         ExcelUtil.excel(fileName, resultFileName);
         Report.sendreport(resultFileName,startTime);
     }
